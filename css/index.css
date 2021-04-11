@@ -120,10 +120,12 @@ body{
     color: white;
     margin-bottom:15px;
     border-radius:5px;
+    background-image: url("../img/monas_chinas/mona_china_bailando_1.gif");
+    background-size: contain;
 }
   
 .closebtn {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 15px;
     margin-right: 10px;
     color: white;
@@ -133,6 +135,8 @@ body{
     line-height: 20px;
     cursor: pointer;
     transition: 0.5s;
+    background-color: black;
+    padding:3px;
 }
   
 .closebtn:hover {
@@ -142,9 +146,15 @@ body{
 p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:15px;
+    background-color: black;
+    display: inline-block;
+    padding:3px;
 }
 
 strong{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:20px;
+    background-color: black;
+    display: inline-block;
+    padding:3px;
 }
