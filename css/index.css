@@ -126,6 +126,10 @@ body{
     border-radius:5px;
     background-image: url("../img/monas_chinas/mona_china_bailando_1.gif");
     background-size: contain;
+    width:90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
   
 .closealert {
@@ -141,10 +145,11 @@ body{
     transition: 0.5s;
     background-color: black;
     padding:3px;
+    border-radius:5px;
 }
   
 .closealert:hover {
-    color: black;
+    color: red;
 }
 
 p{
@@ -153,6 +158,7 @@ p{
     background-color: black;
     display: inline-block;
     padding:3px;
+    border-radius:5px;
 }
 
 strong{
@@ -161,4 +167,5 @@ strong{
     background-color: black;
     display: inline-block;
     padding:3px;
+    border-radius:5px;
 }
