@@ -12,7 +12,7 @@
 }
   
 .sidenav a {
-    padding: 8px 0px 8px 32px;
+    padding: 8px 4px 8px 15px;
     text-decoration: none;
     font-size: 30px;
     color: #818181;
@@ -41,6 +41,10 @@ span:hover{
     transition: margin-left .5s;
     padding: 20px;
     padding-bottom:0px;
+}
+
+#content{
+    transition: margin-left .5s;
 }
 
 @media screen and (max-height: 450px) {
@@ -124,7 +128,7 @@ body{
     background-size: contain;
 }
   
-.closebtn {
+.closealert {
     margin-top: 15px;
     margin-left: 15px;
     margin-right: 10px;
@@ -139,7 +143,7 @@ body{
     padding:3px;
 }
   
-.closebtn:hover {
+.closealert:hover {
     color: black;
 }
 
