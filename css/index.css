@@ -133,7 +133,11 @@ body{
     opacity: 1;
     transition: opacity 0.6s;
 }
-  
+
+.alert:hover{
+    box-shadow: 0 0 5px 3px red;
+}
+
 .closealert {
     margin-top: 15px;
     margin-left: 15px;
@@ -152,6 +156,7 @@ body{
   
 .closealert:hover {
     color: red;
+    box-shadow: 0 0 5px 3px red;
 }
 
 p{
