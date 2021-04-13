@@ -94,21 +94,18 @@ p{
     text-align:center;
 }
 
-.column {
-    float: left;
-    width: 10%;
-    padding: 5px;
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-.row{
-    padding-left: 31.5%;
+  
+.flex-container .box {
+    width: 20%;
+    margin: 10px;
     padding-bottom:10px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 .icono{
