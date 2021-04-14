@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lil Darkie</title>
+        <link rel="icon" href="./img/icons/favicon.png" type="image" sizes="64x64">
+        <link href="./css/index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" target="_self">&times;</a>
+            <div class="menu" style="border-top: solid 3px black;">
+                <a href="./index.html" class="main" target="_self">Main</a> <img class="hide" src="./img/icons/main.png"/>
+            </div>
+            <div class="menu">
+                <a href="./paginas/about.html" class="main" target="_self">About</a> <img class="hide" src="./img/icons/about.png"/>
+            </div>
+            <div class="menu">
+                <a href="./paginas/gallery.html" class="main" target="_self">Gallery</a> <img class="hide" src="./img/icons/gallery.png"/>
+            </div>
+            <div class="menu">
+                <a href="./paginas/albums.html" class="main" target="_self">Albums</a> <img class="hide" src="./img/icons/albums.png"/>
+            </div>
+            <div class="menu">
+                <a href="./paginas/MVs.html" class="main" target="_self">Music&#x2800;Videos</a> <img class="hide" src="./img/icons/MVs.png"/>
+            </div>
+            <div class="menu">
+                <a href="./paginas/links.html" class="main" target="_self">Social&#x2800;Media</a> <img class="hide" src="./img/icons/links.png"/>
+            </div>
+            <div class="darkiespotify">
+                <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:62F9BiUmjqeXbBztCwiX1U?si=hN2_pThhTySkgVpebwKvVg&size=detail&theme=dark" width="230" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+            </div>
+            <div class="darkiespotify">
+                <iframe src="https://open.spotify.com/embed/artist/62F9BiUmjqeXbBztCwiX1U" width="230" height="390" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                &#9776; 
+            </span>
+        </div>
+        <script src="./javascript/menu.jav"></script>
+        <div id="content">
+            <div class="title">
+                <a href="./paginas/me.html" rel="author" target="_blank"><img class="titleimage" src="./img/main/titulo.png" alt="Title"/></a>
+            </div>
+            <div class="alert">
+                <span class="closealert">&times;</span>
+                <strong>Disclaimer!</strong> <p>This site is currently in developement, so some sections might not have been made yet. Thanks for visiting :)</p>
+            </div>
+            <script src="./javascript/alert.jav"></script>
+            <div class="Soundcloud">
+                <a href="https://soundcloud.com/lildvrkie" rel="external" target="_blank">
+                    <img class="soundcloud" src="./img/main/background.jpg" alt="Lil Darkie's Soundcloud"/>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

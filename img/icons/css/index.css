@@ -1,0 +1,191 @@
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s; 
+    border: solid 3px black;
+    border-top: solid 1px black;
+    border-top-right-radius: 10px;
+}
+  
+.sidenav a {
+    padding: 8px 4px 8px 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: inline-block;
+    transition: 0.3s;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.sidenav a:hover {
+    color: #ff0000;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+span:hover{
+    color: #ff0000;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    padding-bottom:0px;
+}
+
+#content{
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.Soundcloud{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.soundcloud{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.soundcloud:hover{
+    box-shadow: 0 0 5px 3px red;
+    border-radius: 10px;
+}
+
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.titleimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom:20px;
+}
+
+.hide{
+    display: none;
+    height: 30px;
+}
+
+.main:hover + .hide{
+    display:inline;
+    padding-top:5px;
+    margin:0px;
+}
+
+.menu{
+    width:100%;
+    border-bottom: solid 3px black;
+    padding:none;
+    background-color: none;
+}
+
+.menu:hover{
+    background-color: rgb(59, 59, 59);
+    background-image: url("../img/icons/glitch3.gif");
+    background-repeat: no-repeat;
+}
+
+.darkiespotify{
+    margin-top: 3.5px;
+    margin-left: 3.5px;
+    border: solid 2px black;
+    width:230px;
+    height:auto;
+    padding: 4px 4px 0px 4px;
+    border-radius: 5px;
+}
+
+.darkiespotify:hover{
+    background-color: rgb(59, 59, 59);
+    background-image: url("../img/icons/glitch.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alert {
+    padding: 10px;
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+    margin-bottom:15px;
+    border-radius:5px;
+    background-image: url("../img/monas_chinas/mona_china_bailando_1.gif");
+    background-size: contain;
+    width:90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    transition: opacity 0.6s;
+}
+
+.closealert {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 40px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: black;
+    padding:3px;
+    border-radius:5px;
+}
+  
+.closealert:hover {
+    color: red;
+    box-shadow: 0 0 5px 3px red;
+}
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    background-color: black;
+    display: inline-block;
+    padding:3px;
+    border-radius:5px;
+}
+
+strong{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    background-color: black;
+    display: inline-block;
+    padding:3px;
+    border-radius:5px;
+}
