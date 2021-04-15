@@ -8,7 +8,10 @@
     background-color: #111; 
     overflow-x: hidden; 
     padding-top: 60px;
-    transition: 0.5s; 
+    transition: 0.5s;
+    border: solid 3px black;
+    border-top: solid 1px black;
+    border-top-right-radius: 10px;
 }
   
 .sidenav a {
@@ -85,8 +88,15 @@ body{
 
 .menu{
     width:100%;
-    border: solid 2px black;
+    border-bottom: solid 3px black;
     padding:none;
+    background-color: none;
+}
+
+.menu:hover{
+    background-color: rgb(59, 59, 59);
+    background-image: url("../img/icons/glitch3.gif");
+    background-repeat: no-repeat;
 }
 
 .darkiespotify{
@@ -96,4 +106,12 @@ body{
     width:230px;
     height:auto;
     padding: 4px 4px 0px 4px;
+    border-radius: 5px;
+}
+
+.darkiespotify:hover{
+    background-color: rgb(59, 59, 59);
+    background-image: url("../img/icons/glitch.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
