@@ -189,31 +189,33 @@ h1{
 .next {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 18%;
     width: auto;
-    padding: 10px;
+    padding: 225px 420px 225px 20px;
     margin-top: 200px;
     color: white;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
     user-select: none;
     -webkit-user-select: none;
     text-decoration: none;
     transition:0.5s;
     margin-left:24.85%;
-    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 0 5px 5px 0;
+    opacity:0;
 }
 
 .next {
     right: 0;
     margin-right: 25.4%;
     border-radius: 5px 0 0 5px;
+    padding: 225px 20px 225px 420px;
 }
 
 .prev:hover,
 .next:hover {
     color:red;
+    opacity:1;
 }
 
 .numbertext {
@@ -239,6 +241,7 @@ h1{
     margin-bottom: 5px;
     margin-left:10px;
     margin-right:10px;
+    border: solid 1px rgb(141, 141, 141);
 }
 
 .row:after {
@@ -256,6 +259,7 @@ h1{
 
 .demo {
     opacity: 0.6;
+    border: solid 2px rgb(141, 141, 141);
 }
 
 .active,
