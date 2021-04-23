@@ -108,7 +108,7 @@ body{
     border: solid 2px black;
     width:230px;
     height:auto;
-    padding: 4px 4.5px 0px 4.5px;
+    padding: 4px 4px 0px 4px;
     border-radius: 5px;
 }
 
@@ -168,10 +168,6 @@ h1{
     text-align:left;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .container {
     position: absolute;
 }
@@ -193,7 +189,7 @@ h1{
     position: absolute;
     top: 18%;
     width: auto;
-    padding: 225px 420px 225px 20px;
+    padding: 210px 420px 240px 20px;
     margin-top: 200px;
     color: white;
     font-weight: bold;
@@ -211,7 +207,7 @@ h1{
     right: 0;
     margin-right: 25.4%;
     border-radius: 5px 0 0 5px;
-    padding: 225px 20px 225px 420px;
+    padding: 210px 20px 240px 420px;
 }
 
 .prev:hover,
