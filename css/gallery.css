@@ -65,13 +65,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    position: sticky;
+    top:30px;
 }
 .titleimage{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding-bottom:20px;
+    padding-bottom:0px;
     border:none;
 }
 
@@ -138,8 +140,8 @@ body{
 }
 
 .paragraph{
-    margin-left:7.5%;
-    margin-right:7.5%;
+    margin-left:3%;
+    margin-right:3%;
 }
 
 a{
@@ -274,6 +276,7 @@ h1{
     border-radius: 10px;
     border: solid 2px rgb(141, 141, 141);
     border-top: solid 1px rgb(141, 141, 141);
+    margin-top:10px;    
 }
 
 img{
