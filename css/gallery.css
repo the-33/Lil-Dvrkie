@@ -72,6 +72,7 @@ body{
     margin-right: auto;
     width: 100%;
     padding-bottom:20px;
+    border:none;
 }
 
 .hide{
@@ -155,12 +156,120 @@ a:hover{
 
 p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:20px;
-    text-align:justify;
+    font-size:25px;
+    text-align:center;
 }
 
 h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:40px;
     text-align:left;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+}
+
+.mySlides {
+    display: none;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 10px;
+    margin-top: 200px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 3px;
+    user-select: none;
+    -webkit-user-select: none;
+    text-decoration: none;
+    transition:0.5s;
+    margin-left:25%;
+}
+
+.next {
+    right: 0;
+    margin-right: 25.5%;
+}
+
+.prev:hover,
+.next:hover {
+    color:red;
+}
+
+.numbertext {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left:15px;
+    top: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width:fit-content;
+    padding:1px 5px 2px 5px;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: rgb(71, 71, 71);
+    padding: 1px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 15.566%;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+    border: solid 2px rgb(179, 0, 0);
+}
+
+.gallery{
+    padding-top:5px;
+    background-color:#111;
+    border-radius: 10px;
+    border: solid 2px rgb(141, 141, 141);
+    border-top: solid 1px rgb(141, 141, 141);
+}
+
+img{
+    border-radius: 7px;
 }
