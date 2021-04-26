@@ -66,7 +66,7 @@ body{
     margin-right: auto;
     width: 30%;
     position: sticky;
-    top:30px;
+    top:70px;
 }
 .titleimage{
     display: block;
@@ -129,13 +129,13 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #aa0202; 
+    background-color: #aa0202;
     border-radius: 3px;
     transition:0.5s;
 }
 
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #720505; 
+::-webkit-scrollbar-thumb:hover {
+    background-color: #720505;
     border-radius:5px;
 }
 
@@ -160,12 +160,14 @@ p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:25px;
     text-align:center;
+    margin:15px;
 }
 
 h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:40px;
     text-align:left;
+    margin:0px;
 }
 
 .container {
@@ -189,7 +191,7 @@ h1{
     position: absolute;
     top: 18%;
     width: auto;
-    padding: 210px 420px 240px 20px;
+    padding: 165px 420px 240px 20px;
     margin-top: 200px;
     color: white;
     font-weight: bold;
@@ -207,7 +209,7 @@ h1{
     right: 0;
     margin-right: 25.4%;
     border-radius: 5px 0 0 5px;
-    padding: 210px 20px 240px 420px;
+    padding: 165px 20px 240px 420px;
 }
 
 .prev:hover,

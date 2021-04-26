@@ -72,6 +72,7 @@ body{
     margin-right: auto;
     width: 100%;
     padding-bottom:20px;
+    border: none;
 }
 
 .hide{
@@ -157,10 +158,144 @@ p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:20px;
     text-align:justify;
+    margin:0px;
 }
 
 h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:40px;
     text-align:left;
+    margin:0px;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding:4px;
+    margin:20px 0;
+    border-radius:10px;
+    background-color:#111;
+}
+  
+.column {
+    flex: 23.5%;
+    max-width: 23.5%;
+    padding:4px;
+    margin:5px;
+}
+  
+.column img {
+    vertical-align: middle;
+    width: 100%;
+    margin:5px;
+}
+
+.threecolumns {
+    flex: 31.8%;
+    max-width: 31.8%;
+    padding:4px;
+    margin:5px;
+}
+  
+.threecolumns img {
+    vertical-align: middle;
+    width: 100%;
+    margin:5px;
+}
+
+.onecolumn{
+    flex: 31.8%;
+    max-width: 31.8%;
+    padding:4px;
+    margin:5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.onecolumn img{
+    vertical-align: middle;
+    width: 100%;
+    margin:5px;
+}
+
+@media screen and (max-width: 1500px) {
+    .column {
+        flex: 46%;
+        max-width: 46%;
+    }
+    .threecolumns{
+        flex: 46%;
+        max-width: 46%;
+    }
+    .onecolumn{
+        flex: 46%;
+        max-width: 46%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 90%;
+        max-width: 90%;
+    }
+    .threecolumns{
+        flex: 90%;
+        max-width: 90%;
+    }
+    .onecolumn{
+        flex: 90%;
+        max-width: 90%;
+    }
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    display:block;
+}
+
+.container img{
+    border: solid 3px rgb(141, 141, 141);
+    border-radius: 10px;
+}
+
+.container:hover img{
+    border: solid 3px rgb(255, 0, 0);
+}
+
+.container:hover .text{
+    display: block;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:black;
+    padding:10px;
+    border-radius:10px;
+    border: solid 2px rgb(255, 0, 0);
+    display:none;
+}
+
+#years{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(168, 23, 23);
+    padding:10px;
+    border-radius:10px;
+    margin:5px;
+    width: 94%;
+    border: solid 3px rgb(141, 141, 141);
+}
+
