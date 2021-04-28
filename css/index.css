@@ -73,10 +73,11 @@ body{
     margin-right: auto;
     width: 100%;
     border-radius: 10px;
+    border: solid 3px rgb(141, 141, 141);
 }
 
 .soundcloud:hover{
-    box-shadow: 0 0 5px 3px red;
+    border: solid 3px rgb(255, 0, 0);
     border-radius: 10px;
 }
 
