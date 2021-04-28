@@ -165,6 +165,17 @@ h1{
     text-align:left;
 }
 
+.MVs{
+    width:100%;
+    display:block;
+    margin:0px;
+}
+
+.MVs a{
+    width:fit-content;
+    display:block;
+}
+
 .name{
     width:100%;
     padding:10px 0;
@@ -195,6 +206,8 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    margin-left:0px;
+    margin-right:0px;
 }
 
 .video:hover{
