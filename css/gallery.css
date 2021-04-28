@@ -242,6 +242,7 @@ h1{
     margin-left:10px;
     margin-right:10px;
     border: solid 1px rgb(141, 141, 141);
+    margin-bottom:10px;
 }
 
 .row:after {
