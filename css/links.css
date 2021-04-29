@@ -164,3 +164,70 @@ h1{
     font-size:40px;
     text-align:left;
 }
+
+.tab {
+    overflow: hidden;
+    border: solid 3px rgb(141, 141, 141);
+    background-color: #111;
+    border-radius: 10px;
+    color:white;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 10px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-right: solid 2px rgb(141, 141, 141);
+    color:white;
+    width:fit-content;
+    height: 100px;
+}
+
+.tab button:hover {
+    background-image: url("../img/icons/glitch.gif");
+    color: red;
+}
+
+.tab:hover {
+    background-image: url("../img/icons/glitch.gif");
+}
+
+.tab button.active {
+    background-image: url("../img/icons/glitch3.gif");
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: solid 3px rgb(141, 141, 141);
+    border-top: none;
+    border-radius: 10px;
+    background-image: url("../img/icons/glitch3.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.media{
+    width:50px;
+    display: inline-block;
+    padding: 0;
+    margin:0;
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    text-align:left;
+    padding: 0 2px;
+    margin: 6px 0;
+    background-color: #111;
+    border-radius: 5px;
+}
