@@ -171,6 +171,9 @@ h1{
     background-color: #111;
     border-radius: 10px;
     color:white;
+    border-bottom: solid 1px rgb(141, 141, 141);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .tab button {
@@ -205,13 +208,12 @@ h1{
     display: none;
     padding: 6px 12px;
     border: solid 3px rgb(141, 141, 141);
-    border-top: none;
+    border-top: solid 1px rgb(141, 141, 141);
     border-radius: 10px;
-    background-image: url("../img/icons/glitch3.gif");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:#111;
     color:white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .media{
@@ -225,8 +227,42 @@ h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:20px;
     text-align:left;
-    padding: 0 2px;
+    padding:1px 5px 2px 5px;
     margin: 6px 0;
-    background-color: #111;
-    border-radius: 5px;
+    background-color: black;
+}
+
+.tabcontent p{
+    background-color: black;
+    width: fit-content;
+    padding:1px 5px 2px 5px;
+}
+
+li{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    text-align:justify;
+    padding-left:10px;
+}
+ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+li::before {
+    content: url("../img/icons/list.png"); 
+    margin-right: 10px;
+}
+
+a{
+    text-decoration:line-through;
+    color:#aa0202;
+    font-size:20px;
+    transition:color 0.3s;
+}
+
+a:hover{
+    color:#da7878;
+    text-decoration:none;
 }

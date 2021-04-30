@@ -137,7 +137,7 @@ body{
 }
 
 .alert {
-    padding: 10px;
+    padding: 20px;
     background-color: #f44336;
     color: rgb(255, 255, 255);
     margin-bottom:15px;
@@ -153,9 +153,9 @@ body{
 }
 
 .closealert {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 15px;
-    margin-right: 10px;
+    margin-right: 5px;
     color: white;
     font-weight: bold;
     float: right;
@@ -184,10 +184,10 @@ p{
 
 strong{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:20px;
+    font-size:30px;
     background-color: black;
     display: inline-block;
-    padding:3px;
+    padding:3px 5px;
     border-radius:5px;
 }
 
@@ -233,4 +233,20 @@ h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:40px;
     text-align:left;
+}
+
+.alert a{
+    text-decoration:line-through;
+    color:#aa0202;
+    font-size:30px;
+    transition:color 0.3s;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    padding:3px 5px;
+    border-radius:5px;
+}
+
+.alert a:hover{
+    color:#da7878;
+    text-decoration:none;
 }
